@@ -13,14 +13,18 @@ header{
     justify-content: space-between;
     flex-direction: row-reverse;
     align-items: center;
-    grid-area: header;
+   
 }
 
-.header__logo{
-    width: 15%;
+#navBar{
+    background-color: #2A5877;
+}
+
+.brand-logo{
+    width: 20%;
     height: auto;
     padding: 50px;
-    grid-area: header;
+    
 }
 
 .header__navbar{
@@ -35,7 +39,7 @@ header{
     
 }
 header .header__navbar a{
-    color: black
+    color: black;
 }
 
 /* TITTLE AND LOGO */
@@ -60,27 +64,14 @@ h1{
 
 /* BODY HOME */
 body{
-    background-color: black;
+    background-color: #468fc1;
 }
 
-.main{
-    grid-area: main;
-}
-
-#Box{
-    display: flex;
-    align-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.image__home{
-    width: 50%;
+.img-carousel-custom{
+    width: 40px;
     height: auto;
-    padding: 50px;
-    display: inline-block;
- }    
+    object-fit: cover;
+}
 
  .text__image__home{
     margin: 30px;
@@ -95,7 +86,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    grid-area: footer;
 }
 
  .navbar__footer{
@@ -116,18 +106,4 @@ body{
 
 /* MEDIA QUERI MOBILE (0px AND 768px) */
 
-@media screen and (max-width: 768px) {
-    .father{
-        display: grid;
-
-    }
-    header{
-        font-size: 10px;
-    }
-    .header__logo{
-        width: 30%;
-        height: auto;
-    }
-    
-}
 
