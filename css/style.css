@@ -1,54 +1,45 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'poppins';
+    font-family: "poppins"
 }
-
-/* GRID HOME */
 
 /* HEADER */
-header{
-    display: flex;
-    background-color: #2A5877;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    align-items: center;
-   
+.header{
+    background-color: #2a5877;
+}
+.navbar{
+    background-color: #2a5877;
+}
+#navbarText{
+    margin: 10px;
 }
 
-#navBar{
-    background-color: #2A5877;
+#tittleNavbar{
+    margin: 10px;
+}
+.navbar-image-custom{
+    width: 150px;
+    height: auto;
 }
 
-.brand-logo{
-    width: 20%;
+.logo-header-custom{
+    width: 30%;
     height: auto;
     padding: 50px;
-    
 }
 
-.header__navbar{
-    padding: 50px;
-    list-style: none;
-}
-
-.navbar__item{
-    display: inline-block;
-    margin: 20px;
-    font-size: medium;
-    
-}
-header .header__navbar a{
-    color: black;
+.navbar-toggler{
+    border: 0px;
 }
 
 /* TITTLE AND LOGO */
 h1{
-    font-family: sans-serif;
+    font-family: "permanent marker";
     font-size: xx-large;
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 10px;
 }
 
 .title{
@@ -57,7 +48,7 @@ h1{
 }
  
 #LogoTitle{
-     width: 30%;
+     width: 25%;
      height: auto;
      display: flex;
 }
@@ -67,12 +58,6 @@ body{
     background-color: #468fc1;
 }
 
-.img-carousel-custom{
-    width: 40px;
-    height: auto;
-    object-fit: cover;
-}
-
  .text__image__home{
     margin: 30px;
     padding: 20px;
@@ -80,30 +65,128 @@ body{
     display: inline-block;
  }
 
- /* FOOTER */
- footer{
-    background-color: #B7B7B7;
+ .caruosel-item{
+    width: 50%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+ }
+
+/* ABOUT US */
+.box__image__aboutus{
+    display: flex;
+    justify-content: center;
     align-items: baseline;
 }
+.image__aboutus{
+    margin: 10px 10px;
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+}
 
- .navbar__footer{
-    padding: 50px;
+.box__text__aboutus{
+    padding: 10px;
+}
+ 
+/* GALERY */
+.image__galery{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image__galery:hover{
+    transform: scale(2);
+    transition: all 2s ease;
+}
+
+.card__image{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__image{
+    margin: 10px;
+    padding: 10px;
+}
+/* FOOTER */
+ footer{
+    background-color: #b7b7b7;
+}
+
+.box__footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__footer{
+    display: inline;
+
+}
+
+.navbar__item__footer{
     list-style: none;
- }
-
- .navbar__item__footer{
-    display: inline-block;
+    display: inline;
     margin: 20px;
-    font-size: larger;
- }
+}
 
- footer .navbar__footer a{
+.navbar__item__footer a{
     color: black;
- }
+}
+
+.box__socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__media{
+    display: inline;
+    margin: 50px;
+
+}
+
+
+
 
 
 /* MEDIA QUERI MOBILE (0px AND 768px) */
 
+@media screen and (max-width: 768px) {
+    #LogoTittle {
+        width: 100px;
+        height: auto;
+    
+    }
 
+    .box__footer{
+        display: flex;
+
+    }
+    .navbar__footer{
+        padding: 10px;
+        display: inline;
+
+    }
+    
+    .social__media{
+        display: inline;
+    }
+
+    .navbar__item{
+        margin: 5px;
+    }
+
+    main{
+        padding: 10px;
+    }
+
+
+}
