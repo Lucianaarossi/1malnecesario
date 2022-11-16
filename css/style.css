@@ -6,10 +6,10 @@
 
 /* HEADER */
 .header{
-    background-color: #2a5877;
+    background-color: #468fc1;
 }
 .navbar{
-    background-color: #2a5877;
+    background-color: #468fc1;
 }
 #navbarText{
     margin: 10px;
@@ -37,7 +37,7 @@
 h1{
     font-family: "permanent marker";
     font-size: xx-large;
-    color: white;
+    color: black;
     text-align: center;
     padding: 10px;
 }
@@ -55,7 +55,7 @@ h1{
 
 /* BODY HOME */
 body{
-    background-color: #468fc1;
+    background-color: beige;
 }
 
  .text__image__home{
@@ -113,6 +113,38 @@ body{
 .info__image{
     margin: 10px;
     padding: 10px;
+}
+
+/* SHOP */
+
+.image__product{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+.card__tittle{
+    margin: 30px;
+    padding: 10px;
+}
+
+.card__description{
+    padding: 10px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    border: black solid;
+}
+
+/* CONTACT */
+.logo__contact{
+    width: 20%;
+    height: auto;
 }
 /* FOOTER */
  footer{

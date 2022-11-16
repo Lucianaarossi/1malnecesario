@@ -9,13 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,400;1,200&display=swap" rel="stylesheet">
+</head>
 </head>
 <body>
     <!-- HEADER -->
     <header>
-        <nav class="navbar navbar-expand-lg #2A5877">
+        <nav class="navbar navbar-expand-lg #468fc1">
             <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html" id="tittleNavbar">1 Mal Necesario</a>
+              <a class="navbar-brand" href="../index.html" id="tittleNavbar">1 Mal Necesario</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -50,39 +54,44 @@
     </div>
    
    <!-- INFO SECTION -->
-    <section class="card__info">
-    <h3 class="info__title">Contacto y cotizaciones</h3>
-        <img src="../image/logo.png" alt="" class="logo__contact">
-            <P class="text__info__contact">Para contactos y cotizaciones deberas completar el siguiente formulario. 
-            En caso de cotizaciones, se debera especificar en el mail</P>
-                <ul class="list__contact">
-                    <li>tipo de diseño</li>
-                    <li>tipo de personaje</li>
-                    <li>tamaño deseado</li>
-                </ul>
-            <p class="text__info__contact">El diseño sera revisado 2 veces para ajustar detalles. El pago sera via blablabla, y se abonara el 50% del 
-            valor indicado en el mail con la confirmacion del trabajo a realizar. El otro 50% sera abonado cuando el diseño 
-            este terminado. 
-            </P>
-    </section>
+   <div class="container">
+        <div class="row">
+            <div class="col-12 col-xl-6">
+                <section class="card__info">
+                    <h3 class="info__title">Contacto y cotizaciones</h3>
+                    <img src="../image/logo.png" alt="" class="logo__contact">
+                    <P class="text__info__contact">Para contactos y cotizaciones deberas completar el siguiente formulario. 
+                    En caso de cotizaciones, se debera especificar en el mail</P>
+                        <ul class="list__contact">
+                            <li>tipo de diseño</li>
+                            <li>tipo de personaje</li>
+                            <li>tamaño deseado</li>
+                        </ul>
+                    <p class="text__info__contact">El diseño sera revisado 2 veces para ajustar detalles. El pago sera via blablabla, y se abonara el 50% del 
+                    valor indicado en el mail con la confirmacion del trabajo a realizar. El otro 50% sera abonado cuando el diseño este terminado.</P>
+                </section>
+            </div>
 
     <!-- CONTACT FORM -->
-    <section class="card__form">    
-        <form action="" method="" enctype="" class="card__form">
-            <input type="text" name="full-name" placeholder="Nombre Completo" class="full__name">
-            <input type="text" name="email" placeholder="Mail" class="email">
-            <select name="" id="" class="affair">
-                <option value="asunto" disabled selected>Asunto</option>
-                <option value="info">info sobre diseño</option>
-                <option value="cotizacion">Cotizaciones</option>
-                <option value="otro">Otro</option>
-            </select>
-            <textarea name="escriba-aqui" id="" cols="30" rows="10" placeholder="escribi aqui" class="textarea"></textarea>
-            <button class="button">Enviar</button>
-            <input type="reset" class="button">
-        </form>
-    </section>
-
+            <div class="col-12 col-xl-6">
+                <section class="card__form">    
+                    <form action="" method="" enctype="" class="card__form">
+                        <input type="text" name="full-name" placeholder="Nombre Completo" class="full__name">
+                        <input type="text" name="email" placeholder="Mail" class="email">
+                        <select name="" id="" class="affair">
+                            <option value="asunto" disabled selected>Asunto</option>
+                            <option value="info">info sobre diseño</option>
+                            <option value="cotizacion">Cotizaciones</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                        <textarea name="escriba-aqui" id="" cols="30" rows="10" placeholder="escribi aqui" class="textarea"></textarea>
+                        <button class="button">Enviar</button>
+                        <input type="reset" class="button">
+                    </form>
+                </section>
+            </div>
+        </div>
+   </div>
     <!-- FOOTER -->
     <footer>
         <section class="box__footer">
