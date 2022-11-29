@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+    #LogoTittle {
+        width: 100px;
+        height: auto;
+    
+    }
+
+    .box__footer{
+        display: flex;
+
+    }
+    .navbar__footer{
+        padding: 10px;
+        display: inline;
+
+    }
+    
+    .social__media{
+        display: inline;
+    }
+
+    .navbar__item{
+        margin: 5px;
+    }
+
+    main{
+        padding: 10px;
+    }
+
+
+}

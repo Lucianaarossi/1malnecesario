@@ -1,0 +1,30 @@
+.header{
+    background-color: $secondary_color;
+    .navbar{
+        background-color: $secondary_color;
+        #navbarText{
+            margin: 5px;
+            padding: 5px;
+        }
+        #tittleNavbar{
+            margin: 10px;
+            padding: 10px;
+        }
+        .navbar-image-custom{
+            width: 150px;
+            height: auto;
+        }
+        .navbar-image-custom{
+            width: 30px;
+            height: auto;
+        }
+        .navbar-toggler{
+            border: 0px;
+        }
+    }
+}
+
+
+
+
+

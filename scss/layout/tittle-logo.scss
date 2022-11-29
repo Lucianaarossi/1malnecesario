@@ -1,0 +1,36 @@
+h1{
+    font-family: $font_style;
+    font-size: xx-large;
+    color: $tertiary_color;
+    text-align: center;
+    animation-name: "colorChange";
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    @keyframes colorChange{
+        0%{
+            color: 360, 0%, 0%;
+        }
+        50%{
+            color:  204, 49%, 51%;
+        }
+        100%{
+            color: 204, 47%, 31%;
+        }
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+    #LogoTitle{
+        width: 50px;
+        height: auto;
+        display: flex;
+   }
+}
+
+
+
+
+    
+
