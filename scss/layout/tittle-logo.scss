@@ -22,8 +22,14 @@ h1{
         display: flex;
         justify-content: center;
     }
-    #LogoTittle{
-        width: 150px;
+  
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    #LogoTitle{
+        width: 400px;
         height: auto;
     }
 }

@@ -16,9 +16,6 @@ footer{
         list-style: none;
         display: inline;
         margin: 20px;
-        .navbar__item__footer a{
-            color: black;
-        }
     }
     .box__socialmedia{
         padding: 20px;
@@ -28,6 +25,9 @@ footer{
     }
 }
 
+.navbar__item__footer a{
+    color: black;
+}
 
 
 

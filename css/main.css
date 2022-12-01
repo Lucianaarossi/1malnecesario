@@ -18,29 +18,30 @@ footer {
     list-style: none;
     display: inline;
     margin: 20px; }
-    footer .navbar__item__footer .navbar__item__footer a {
-      color: black; }
   footer .box__socialmedia {
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center; }
 
-.header {
+.navbar__item__footer a {
+  color: black; }
+
+header {
   background-color: #468fc1; }
-  .header .navbar {
+  header .navbar {
     background-color: #468fc1; }
-    .header .navbar #navbarText {
+    header .navbar #navbarText {
       margin: 5px;
       padding: 5px; }
-    .header .navbar #tittleNavbar {
+    header .navbar #tittleNavbar {
       margin: 10px;
       padding: 10px; }
-    .header .navbar .navbar-image-custom {
+    header .navbar .navbar-image-custom {
       width: 150px;
       height: auto;
       padding: 5px; }
-    .header .navbar .navbar-toggler {
+    header .navbar .navbar-toggler {
       border: 0px; }
 
 h1 {
@@ -63,8 +64,12 @@ h1 {
   h1 .title {
     display: flex;
     justify-content: center; }
-  h1 #LogoTittle {
-    width: 150px;
+
+.title {
+  display: flex;
+  justify-content: center; }
+  .title #LogoTitle {
+    width: 400px;
     height: auto; }
 
 body {
