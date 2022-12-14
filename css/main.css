@@ -1,6 +1,10 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  overflow-x: hidden; }
+
+* {
+  font-family: "poppins"; }
 
 footer {
   background-color: #b7b7b7; }
@@ -79,11 +83,11 @@ body {
     font-size: large;
     display: inline-block; }
 
-.box__image__aboutus {
+body .box__image__aboutus {
   display: flex;
   justify-content: center;
   align-items: baseline; }
-  .box__image__aboutus .image__aboutus {
+  body .box__image__aboutus .image__aboutus {
     margin: 10px 10px;
     width: 60%;
     height: auto;
@@ -99,9 +103,9 @@ body {
     width: 50%;
     height: auto;
     object-fit: cover; }
-  .card__image .image__galery:hover {
-    transform: scale(2);
-    transition: all 2s ease; }
+    .card__image .image__galery:hover {
+      transform: scale(2);
+      transition: all 2s ease; }
   .card__image .info__image {
     margin: 10px; }
 
@@ -132,10 +136,9 @@ article {
 .card__info {
   padding: 10px;
   margin: 5px; }
-
-.logo__contact {
-  width: 20%;
-  height: auto; }
+  .card__info .logo__contact {
+    width: 20%;
+    height: auto; }
 
 @media screen and (max-width: 768px) {
   #LogoTittle {
