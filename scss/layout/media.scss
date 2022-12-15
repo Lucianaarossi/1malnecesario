@@ -7,15 +7,20 @@
     main{
         padding: 10px;
     }
-    .img-carousel-custom{
-        width: 250px;
-        height: auto;
+    .text-home{
+        font-size: small;
+    }
+    .image-home{
+        padding: 0px;
     }
     .navbar__footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+        margin: 0px;
+        display: block;
+        .navbar__item__footer{
+            padding: 0px;
+            margin: 0px;
+            display: block;
+            text-align: center;
+        }
     }
 }

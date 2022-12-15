@@ -2,8 +2,12 @@ article{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: baseline;
-    border: black solid;
+    align-items: center;
+    align-content: center;
+    border: black solid 1px;
+    .card__product{
+        padding: 10px;
+    }
     .image__product{
         margin: 10px;
         width: 300px;

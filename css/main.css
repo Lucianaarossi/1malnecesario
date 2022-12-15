@@ -86,22 +86,17 @@ body {
   background-color: beige; }
   body h2 {
     font-family: "permanent marker"; }
-  body .carousel-home {
+  body .style-home {
+    padding: 10px;
     display: flex;
     justify-content: center;
-    align-content: center;
-    align-items: center; }
+    align-items: baseline; }
   body .text-home {
     font-size: large;
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center; }
-  body .text {
     padding: 5px;
     margin: 10px;
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
   body .ig {
     color: black; }
 
@@ -115,28 +110,27 @@ body .box__image__aboutus {
     height: auto;
     object-fit: cover; }
 
-.card__image {
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .card__image .image__galery {
-    width: 50%;
-    height: auto;
-    object-fit: cover; }
-    .card__image .image__galery:hover {
-      transform: scale(2);
-      transition: all 2s ease; }
-  .card__image .info__image {
-    margin: 10px; }
+.card-galery .img-custom:hover {
+  transform: scale(1.5);
+  transition: all 2s ease; }
+
+.card-galery .img-custom {
+  object-fit: cover; }
+
+.card-galery .card-custom {
+  background-color: black;
+  color: white;
+  object-fit: cover; }
 
 article {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: baseline;
-  border: black solid; }
+  align-items: center;
+  align-content: center;
+  border: black solid 1px; }
+  article .card__product {
+    padding: 10px; }
   article .image__product {
     margin: 10px;
     width: 300px;
@@ -162,18 +156,24 @@ article {
     width: 20%;
     height: auto; }
 
+.info__title {
+  overflow: hidden; }
+
 @media screen and (max-width: 768px) {
   #LogoTittle {
     width: 100px;
     height: auto; }
   main {
     padding: 10px; }
-  .img-carousel-custom {
-    width: 250px;
-    height: auto; }
+  .text-home {
+    font-size: small; }
+  .image-home {
+    padding: 0px; }
   .navbar__footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center; } }
+    margin: 0px;
+    display: block; }
+    .navbar__footer .navbar__item__footer {
+      padding: 0px;
+      margin: 0px;
+      display: block;
+      text-align: center; } }

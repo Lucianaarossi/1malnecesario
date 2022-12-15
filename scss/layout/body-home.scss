@@ -3,24 +3,18 @@ body{
         font-family: $font_style;
     }
     background-color: $primary_color;
-        .carousel-home{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
+        .style-home{
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
         }
         .text-home{
             font-size: large;
-            display: inline-block;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-        }
-        .text{
             padding: 5px;
             margin: 10px;
             text-align: center;
+            font-weight: bold;
         }
         .ig{
             color: $tertiary_color;
