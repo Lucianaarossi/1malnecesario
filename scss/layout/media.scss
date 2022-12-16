@@ -23,4 +23,14 @@
             text-align: center;
         }
     }
+    .card-galery{
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        .card-custom{
+            margin: 5px;
+        }
+    }
 }

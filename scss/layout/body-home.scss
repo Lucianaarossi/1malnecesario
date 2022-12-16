@@ -5,9 +5,10 @@ body{
     background-color: $primary_color;
         .style-home{
             padding: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: baseline;
+            .home-custom{
+                justify-content: center;
+                align-items: center;
+            }
         }
         .text-home{
             font-size: large;

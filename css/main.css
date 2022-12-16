@@ -87,10 +87,10 @@ body {
   body h2 {
     font-family: "permanent marker"; }
   body .style-home {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: baseline; }
+    padding: 10px; }
+    body .style-home .home-custom {
+      justify-content: center;
+      align-items: center; }
   body .text-home {
     font-size: large;
     padding: 5px;
@@ -114,12 +114,15 @@ body .box__image__aboutus {
   transform: scale(1.5);
   transition: all 2s ease; }
 
-.card-galery .img-custom {
-  object-fit: cover; }
+.card-galery .card-galery {
+  display: flex; }
 
 .card-galery .card-custom {
   background-color: black;
   color: white;
+  object-fit: cover; }
+
+.card-galery .image-custom {
   object-fit: cover; }
 
 article {
@@ -176,4 +179,12 @@ article {
       padding: 0px;
       margin: 0px;
       display: block;
-      text-align: center; } }
+      text-align: center; }
+  .card-galery {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; }
+    .card-galery .card-custom {
+      margin: 5px; } }

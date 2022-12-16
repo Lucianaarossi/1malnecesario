@@ -3,13 +3,16 @@
         transform: scale(1.5);
         transition: all 2s ease;
     }
-    .img-custom{
-        object-fit: cover;
+    .card-galery{
+        display: flex;
+
     }
-    
     .card-custom{
         background-color: black;
         color: white;
+        object-fit: cover;
+    }
+    .image-custom{
         object-fit: cover;
     }
 }
